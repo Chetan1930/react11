@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Js from './Components/Js'
 
 function App() {
   const [data, setData] = useState([
@@ -38,6 +39,7 @@ function App() {
 
   return (
     <>
+    <Js/>
       <div className="parent">
         {keys.map((title) => (
           <div className="column">{title}</div>
